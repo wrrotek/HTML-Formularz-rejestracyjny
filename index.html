@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css ">
+
+    <style>
+        body{
+        float: center;
+        margin-left :100px;
+        margin-right :100px;
+        }
+    </style>
+
+</head>
+<body>
+
+<h1>Rejestracja</h1>
+<div>
+    <label for="name">Imię</label>
+    <br>
+    <input type="text" id="name" placeholder="Wpisz imię">
+</div>
+<div>
+    <label for="name">Nazwisko</label>
+    <br>
+    <input type="text" id="surname" placeholder="Wpisz nazwisko">
+</div>
+<div>
+    <p>Płeć</p>
+    <label for="woman">Kobieta</label>
+    <input type="radio" name="navi" id="woman">
+    <br>
+    <label for="man">Mężczyzna</label>
+    <input type="radio" name="navi" id="man">
+</div>
+<div>
+    <label for="email">Adres email</label>
+    <br>
+    <input type="email" placeholder="Wpisz adres email" id="email">
+</div>
+<div>
+    <label for="password">Hasło</label>
+    <br>
+    <input type="email" placeholder="hasło" id="password">
+</div>
+<p style="color:grey;">Min. 8 znaków</p>
+
+<div class="place">
+    <label for="city">Miasto</label>
+    <br>
+    <input type="text" id="city"/>
+    <br>
+    <label>Województwo</label>
+    <select>
+        <option>Wybierz..</option>
+        <option>dolnośląskie</option>
+        <option>kujawsko-pomorskie</option>
+        <option>lubelskie</option>
+        <option>lubuskie</option>
+        <option>łódzkie</option>
+        <option>małopolskie</option>
+        <option>mazowieckie</option>
+        <option>opolskie</option>
+        <option>podkarpackie</option>
+        <option>podlaskie</option>
+        <option>pomorskie</option>
+        <option>śląskie</option>
+        <option>świętokrzyskie</option>
+        <option>warmińsko-mazurskie</option>
+        <option>wielkopolskie</option>
+        <option>zachodiopomorskie</option>
+    </select>
+    <label for="post-code">Kod pocztowy</label>
+    <input type="text" id="post-code"/>
+</div>
+
+<div class="preferences">
+    <label for="accept">Akceptuję <span style="color: blue"> regulamin</span></label>
+    <input type="checkbox" name="accept" id="accept">
+    <br>
+    <label for="perrmision">Wyrażam zgodę na otrzymywanie informacji marketingowych</label>
+    <input type="checkbox" name="perrmision" id="perrmision" checked>
+</div>
+<button>Rejestruj</button>
+</body>
+</html>
