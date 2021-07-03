@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css ">
+
+</head>
+<body style="width: 100%">
+<div class="container">
+
+    <h1>Rejestracja</h1>
+    <div class="form-group">
+        <label for="name">Imię</label>
+        <br>
+        <input type="text" class="form-control" id="name" placeholder="Wpisz imię">
+    </div>
+
+    <div class="form-group">
+        <label for="name">Nazwisko</label>
+        <br>
+        <input type="text" class="form-control" id="surname" placeholder="Wpisz nazwisko">
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-1">
+                Płeć
+            </div>
+            <div class="col-8">
+                <input type="radio" name="navi" id="woman">
+                <label for="woman">Kobieta</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+            </div>
+            <div class="col-8">
+                <input type="radio" name="navi" id="man">
+                <label for="man">Mężczyzna</label>
+            </div>
+
+        </div>
+
+        <div>
+            <label for="email">Adres email</label>
+            <br>
+            <input type="email" class="form-control" placeholder="Wpisz adres email" id="email">
+        </div>
+        <div>
+            <label for="password">Hasło</label>
+            <br>
+            <input type="email" class="form-control" placeholder="hasło" id="password">
+            <p style="color:grey;">Min. 8 znaków</p>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <label for="city">Miasto</label>
+            </div>
+            <div class="col-4">
+                <label for="state">Województwo</label>
+            </div>
+            <div class="col-2">
+                <label for="post-code">Kod pocztowy</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <input type="text" class="form-control" id="city"/>
+            </div>
+            <div class="col-4">
+                <select class="form-control" id="state">
+                    <option>Wybierz..</option>
+                    <option>dolnośląskie</option>
+                    <option>kujawsko-pomorskie</option>
+                    <option>lubelskie</option>
+                    <option>lubuskie</option>
+                    <option>łódzkie</option>
+                    <option>małopolskie</option>
+                    <option>mazowieckie</option>
+                    <option>opolskie</option>
+                    <option>podkarpackie</option>
+                    <option>podlaskie</option>
+                    <option>pomorskie</option>
+                    <option>śląskie</option>
+                    <option>świętokrzyskie</option>
+                    <option>warmińsko-mazurskie</option>
+                    <option>wielkopolskie</option>
+                    <option>zachodiopomorskie</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control" id="post-code"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input type="checkbox" name="accept" id="accept">
+            <label for="accept">Akceptuję <span style="color: blue"> regulamin</span></label>
+            <br>
+            <input type="checkbox" name="perrmision" id="perrmision" checked>
+            <label for="perrmision">Wyrażam zgodę na otrzymywanie informacji marketingowych</label>
+        </div>
+        <button type="button" class="btn btn-primary">Rejestruj</button>
+    </div>
+</div>
+</body>
+</html>
